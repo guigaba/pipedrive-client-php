@@ -77,6 +77,16 @@ class FieldTypeAsString
 
     const VISIBLE_TO = 'visible_to';
 
+    const INT = 'int';
+
+    const STAGE = 'stage';
+
+    const STATUS = 'status';
+
+    const VARCHAR_OPTIONS = 'varchar_options';
+
+    const PICTURE = 'picture';
+
     /**
      * Gets allowable values of the enum
      * @return (string|int)[]
@@ -100,9 +110,12 @@ class FieldTypeAsString
             self::USER,
             self::VARCHAR,
             self::VARCHAR_AUTO,
-            self::VISIBLE_TO
+            self::VISIBLE_TO,
+            self::INT,
+            self::STAGE,
+            self::STATUS,
+            self::VARCHAR_OPTIONS,
+            self::PICTURE,
         ];
     }
 }
-
-
